@@ -37,6 +37,8 @@ def reservar(k):
 	time.sleep(4)
 	driver.find_element_by_xpath('//*[@id="page"]/div/div[3]/div[2]/div[2]/div[57]/div[2]/div[1]').click()
 	time.sleep(1)
+	
+	time.prueba
 
 	
 
