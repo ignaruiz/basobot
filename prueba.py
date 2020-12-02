@@ -45,6 +45,7 @@ def reservar(k):
 					##pincho en el calendario para reservar para el viernes
 	time.sleep(2)				
 	driver.find_element_by_xpath('//*[@id="page"]/div/div[3]/div[1]/div/div[2]/span/span').click()
+	driver.find_element_by_text
 
 	time.sleep(5)
 	
