@@ -72,7 +72,6 @@ def reservar(k):
 
 	driver.find_element_by_xpath('//*[@id="page"]/div/div[3]/div/table/tr[2]/td/div[3]/input').send_keys(k["nom3"])
 	time.sleep(1)
-<<<<<<< HEAD
 	driver.find_element_by_xpath('/html/body/div[3]/div/div').click()
 
 
@@ -91,10 +90,7 @@ def reservar(k):
 	
 
 
-=======
-	
-	
->>>>>>> 9215d78e7d23634c517f4f49f1d1c051fa55a658
+
 
 	
 
