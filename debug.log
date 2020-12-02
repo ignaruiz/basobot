@@ -3,3 +3,31 @@
 [1108/142733.874:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
 [1111/171007.144:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
 [1111/171007.147:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1201/120052.833:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1201/120052.858:ERROR:exception_snapshot_win.cc(99)] thread ID 1720 not found in process
+[1201/120052.943:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1201/120052.943:ERROR:exception_snapshot_win.cc(99)] thread ID 6044 not found in process
+[1201/120053.084:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1201/120053.084:ERROR:exception_snapshot_win.cc(99)] thread ID 5588 not found in process
+[1201/120053.135:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1201/120053.135:ERROR:exception_snapshot_win.cc(99)] thread ID 5332 not found in process
+[1201/120053.271:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1201/120053.271:ERROR:exception_snapshot_win.cc(99)] thread ID 6208 not found in process
+[1201/163305.372:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/163305.404:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1201/171220.305:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/171220.306:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1201/173316.131:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/173316.158:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1201/174331.934:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/174332.012:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1201/201053.289:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Usuario\AppData\Local\Temp\scoped_dir8700_28248863\Crashpad\settings.dat: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/201053.370:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Usuario\AppData\Local\Temp\scoped_dir8700_28248863\Crashpad\reports\de50fbac-3589-4317-a82d-aaa846dfa52d.dmp: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/201053.370:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1201/205944.692:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Usuario\AppData\Local\Temp\scoped_dir4144_924545886\Crashpad\settings.dat: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/205944.765:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Usuario\AppData\Local\Temp\scoped_dir4144_924545886\Crashpad\reports\14bf80c1-4028-4298-a515-bc0394dfc1f6.dmp: El sistema no puede encontrar la ruta especificada. (0x3)
+[1201/205944.765:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1202/121858.182:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1202/121858.208:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1202/122447.721:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1202/122447.722:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
