@@ -3,9 +3,19 @@ from config import keys
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
+import datetime
+from datetime import timedelta
 
 
 def reservar(k):
+
+	## guardo e una variable el dia de hoy para saber cuando reservar
+
+	x=datetime.datetime.now()
+	viernes=x+timedelta(2)
+	dia_viernes=viernes.day
+
+
 	
 ## creo el driver para acceder a la pagina web basozabal
 	
@@ -42,6 +52,11 @@ def reservar(k):
 	for handle in handles:
 	 	driver.switch_to.window(handle)  ##me cambio a la pagina de las horas
 
+
+	 			## pincho en el calendario para escoger las salidas del viernes
+	time.sleep(2)				
+	driver.find_element_by_xpath('//*[@id="page"]/div/div[3]/div[1]/div/div[2]/span/span').click()
+	driver.find_element_by_xpath('//span[text()="' + str(dia_viernes) + '"]').click()
 
 
 
